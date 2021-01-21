@@ -1,0 +1,12 @@
+{
+  "name": "native-event-bus",
+  "version": "1.0.0",
+  "description": "Lightweight Native Event Bus in JavaScript",
+  "main": "index.ts",
+  "repository": "git@github.com:CarterLi/event-bus.git",
+  "author": "李通洲 <carter.li@eoitek.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  }
+}
