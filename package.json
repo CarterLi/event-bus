@@ -1,12 +1,18 @@
 {
   "name": "native-event-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight Native Event Bus in JavaScript",
-  "main": "index.ts",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "repository": "git@github.com:CarterLi/event-bus.git",
   "author": "李通洲 <carter.li@eoitek.com>",
+  "bugs": {
+    "url": "https://github.com/CarterLi/event-bus/issues",
+    "email": "carter.li@eoitek.com"
+  },
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -d -p ."
   }
 }
