@@ -1,4 +1,5 @@
 export class EventBus {
+    eventTarget;
     constructor(description = '') {
         this.eventTarget = typeof document === 'object'
             ? document.appendChild(document.createComment(description))
